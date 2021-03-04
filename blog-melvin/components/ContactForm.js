@@ -42,36 +42,48 @@ class ContactForm extends Component {
     let buttonText = this.state.status;
     return (
       <form onSubmit={this.handleSubmit.bind(this)} method="POST">
-        <div>
-          <label htmlFor="name">Name:</label>
+        <div class="relative mb-4">
+          <label htmlFor="name" class="leading-7 text-sm text-gray-600">
+            Naam:
+          </label>
           <input
             type="text"
             id="name"
             value={this.state.name}
             onChange={this.handleChange.bind(this)}
             required
+            class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           />
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">E-mail:</label>
           <input
             type="email"
             id="email"
             value={this.state.email}
             onChange={this.handleChange.bind(this)}
             required
+            class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
           />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div class="relative mb-4">
+          <label htmlFor="message" class="leading-7 text-sm text-gray-600">
+            Stel je vraag:
+          </label>
           <textarea
             id="message"
             value={this.state.message}
             onChange={this.handleChange.bind(this)}
             required
+            class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
           />
         </div>
-        <button type="submit">{buttonText}</button>
+        <button
+          class="text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"
+          type="submit"
+        >
+          {buttonText}
+        </button>
       </form>
     );
   }

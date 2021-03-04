@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 function GalleryStucwerk() {
   return (
     <div>
@@ -21,8 +22,8 @@ function GalleryStucwerk() {
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2">
                 <Image
-                  alt="gallery"
-                  className="transition duration-500 ease-in-out bg-red-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ...  w-full object-cover h-full object-center block"
+                  alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                  className="transition duration-500 ease-in-out bg-red-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ...  w-full object-cover h-full object-center block rounded-lg"
                   src="/JRM 12.jpg"
                   width={500}
                   height={300}
@@ -30,8 +31,8 @@ function GalleryStucwerk() {
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image
-                  alt="gallery"
-                  className="w-full object-cover h-full object-center block"
+                  alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                  className="w-full object-cover h-full object-center block rounded-lg"
                   src="/JRM 2.jpg"
                   width={501}
                   height={301}
@@ -39,8 +40,8 @@ function GalleryStucwerk() {
               </div>
               <div className="md:p-2 p-1 w-full">
                 <Image
-                  alt="gallery"
-                  className="w-full h-full object-cover object-center block"
+                  alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                  className="w-full h-full object-cover object-center block rounded-lg"
                   src="/JRM 20.jpg"
                   width={600}
                   height={360}
@@ -50,8 +51,8 @@ function GalleryStucwerk() {
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
                 <Image
-                  alt="gallery"
-                  className="w-full h-full object-cover object-center block"
+                  alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                  className="w-full h-full object-cover object-center block rounded-lg"
                   src="/JRM 23.jpg"
                   width={601}
                   height={361}
@@ -59,8 +60,8 @@ function GalleryStucwerk() {
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image
-                  alt="gallery"
-                  className="w-full object-cover h-full object-center block"
+                  alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                  className="w-full object-cover h-full object-center block rounded-lg"
                   src="/JRM 12.jpg"
                   width={502}
                   height={302}
@@ -68,8 +69,8 @@ function GalleryStucwerk() {
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image
-                  alt="gallery"
-                  className="w-full object-cover h-full object-center block"
+                  alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                  className="w-full object-cover h-full object-center block rounded-lg"
                   src="/JRM 12.jpg"
                   width={503}
                   height={303}
@@ -80,17 +81,17 @@ function GalleryStucwerk() {
               <div className="flex flex-wrap w-1/2">
                 <div className="md:p-2 p-1 w-1/2">
                   <Image
-                    alt="gallery"
-                    className="transition duration-500 ease-in-out bg-red-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ...  w-full object-cover h-full object-center block"
-                    src="/JRM 1.jpg"
+                    alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                    className="transition duration-500 ease-in-out bg-red-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ...  w-full object-cover h-full object-center block rounded-lg"
+                    src="/JRM 2.jpg"
                     width={500}
                     height={300}
                   />
                 </div>
                 <div className="md:p-2 p-1 w-1/2">
                   <Image
-                    alt="gallery"
-                    className="w-full object-cover h-full object-center block"
+                    alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                    className="w-full object-cover h-full object-center block rounded-lg"
                     src="/JRM 23.jpg"
                     width={501}
                     height={301}
@@ -98,8 +99,8 @@ function GalleryStucwerk() {
                 </div>
                 <div className="md:p-2 p-1 w-full">
                   <Image
-                    alt="gallery"
-                    className="w-full h-full object-cover object-center block"
+                    alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                    className="w-full h-full object-cover object-center block rounded-lg"
                     src="/JRM 20.jpg"
                     width={600}
                     height={360}
@@ -109,8 +110,8 @@ function GalleryStucwerk() {
               <div className="flex flex-wrap w-1/2">
                 <div className="md:p-2 p-1 w-full">
                   <Image
-                    alt="gallery"
-                    className="w-full h-full object-cover object-center block"
+                    alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                    className="w-full h-full object-cover object-center block rounded-lg"
                     src="/JRM 13.jpg"
                     width={601}
                     height={361}
@@ -118,8 +119,8 @@ function GalleryStucwerk() {
                 </div>
                 <div className="md:p-2 p-1 w-1/2">
                   <Image
-                    alt="gallery"
-                    className="w-full object-cover h-full object-center block"
+                    alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                    className="w-full object-cover h-full object-center block rounded-lg"
                     src="/JRM 4.jpg"
                     width={502}
                     height={302}
@@ -127,8 +128,8 @@ function GalleryStucwerk() {
                 </div>
                 <div className="md:p-2 p-1 w-1/2">
                   <Image
-                    alt="gallery"
-                    className="w-full object-cover h-full object-center block"
+                    alt="JRM Afbouw | Stucwerk | Fotogalerij"
+                    className="w-full object-cover h-full object-center block rounded-lg"
                     src="/JRM 2.jpg"
                     width={503}
                     height={303}

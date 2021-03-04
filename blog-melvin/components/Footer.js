@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div>
       <div className="relative bg-white overflow-hidden">
-        <section class="text-gray-600 body-font relative">
-          <div class="absolute inset-0 bg-gray-300">
+        <section className="text-gray-600 body-font relative">
+          <div className="absolute inset-0 bg-gray-300">
             <iframe
               width="100%"
               height="100%"
@@ -19,42 +19,15 @@ function Footer() {
               src="https://maps.google.com/maps?q=Rotterdam&t=&z=13&ie=UTF8&iwloc=&output=embed"
             ></iframe>
           </div>
-          <div class="container px-5 py-24 mx-auto flex">
-            <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-              <ContactForm />
-              <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+          <div className="container px-5 py-24 mx-auto flex">
+            <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+              <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
                 <div>De Start Van Uw Verbouwing Begint Hier</div>
               </h2>
-              <p class="leading-relaxed mb-5 text-gray-600">
+              <p className="leading-relaxed mb-5 text-gray-600">
                 Ontvang vandaag nog een vrijblijvende offerte.
               </p>
-              <div class="relative mb-4">
-                <label for="email" class="leading-7 text-sm text-gray-600">
-                  E-mail
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                />
-                <div class="relative mb-4">
-                  <label for="message" class="leading-7 text-sm text-gray-600">
-                    Bericht
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                  ></textarea>
-                </div>
-                <button class="text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-                  Verstuur
-                </button>
-                <p class="text-xs text-gray-500 mt-3">
-                  We gebruiken uw email enkel voor correspordentie
-                </p>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </section>
